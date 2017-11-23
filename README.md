@@ -1,8 +1,8 @@
 # 4 Images 1 Word Solver
 
-Puzzle Solved | results.txt
-: -------------------------: |: --------------------- ---: | --------------------
-! [] (./ screenshots / sreen_one.png) | ! [] (./ screenshots / screen_two.png) | ! [] (./ screenshots / screen_three.png)
+Puzzle | Solved | results.txt
+:-------------------------:|:-------------------------:|:--------------------
+![](./screenshots/sreen_one.png) | ![](./screenshots/screen_two.png) | ![](./screenshots/screen_three.png)
 
 #### Case study
 My goal was to have a script/application that would help me solve the puzzle "4 Pics 1 Word".
