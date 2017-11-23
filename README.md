@@ -38,6 +38,6 @@ All of the test (10 out of 10) were positive, resulting in an output of a maximu
 As I have said before, in order to limit the outcome, we must filter out the words with a lower probability. This is only the case if we do not find a match in our glossary.
 
 ### Sources
-- [Permitation of 4 letters] (https://www.quora.com/How-many-permutations-of-4-letters-can-be-made-out-of-the-letters-of-the-word- exam)
-- [Find all possible permutations with Ruby and recursion] (https://stackoverflow.com/questions/25224321/find-all-the-possible-permutations-using-ruby-and-recursion)
-- [Dictionary attack] (https://en.wikipedia.org/wiki/Dictionary_attack)
+- [Permitation of 4 letters](https://www.quora.com/How-many-permutations-of-4-letters-can-be-made-out-of-the-letters-of-the-word- exam)
+- [Find all possible permutations with Ruby and recursion](https://stackoverflow.com/questions/25224321/find-all-the-possible-permutations-using-ruby-and-recursion)
+- [Dictionary attack](https://en.wikipedia.org/wiki/Dictionary_attack)
