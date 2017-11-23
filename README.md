@@ -1,8 +1,12 @@
 # 4 Pics 1 Word Solver
 
+Puzzle                     |  Solved                  | results.txt
+:-------------------------:|:------------------------:|:--------------------
+![](./screenshots/sreen_one.png)  |  ![](./screenshots/screen_two.png) | ![](./screenshots/screen_three.png)
+
 #### Case study
-My goal was to have a script that would help me solving the "4 Pics 1 Word" puzzle.
-To do so we need to automate the proccess of logical thinking that would solve this puzzle.<br>
+My goal was to have a script/application that would help me solving the "4 Pics 1 Word" puzzle.
+To do so we need to automate the proccess of logical thinking that would solve this puzzle.
 The cognitive proccess is:
 - Write down the words that would describe the images.
 - Get the permutations that can be made from the letters we can choose from.
@@ -35,6 +39,6 @@ roke would have a low probabilty while rich would have a high probabilty.
 Like I mention before, to narrow the outcome we should filter out the words with a lower probabilty. This is only the case when we don't find any match in our wordlist.
 
 ### Resources
-[Permutation of 4 letters](https://www.quora.com/How-many-permutations-of-4-letters-can-be-made-out-of-the-letters-of-the-word-examination)
-[Find all the possible permutations using Ruby and recursion](https://stackoverflow.com/questions/25224321/find-all-the-possible-permutations-using-ruby-and-recursion)
-[Dictionary attack](https://en.wikipedia.org/wiki/Dictionary_attack)
+- [Permutation of 4 letters](https://www.quora.com/How-many-permutations-of-4-letters-can-be-made-out-of-the-letters-of-the-word-examination)
+- [Find all the possible permutations using Ruby and recursion](https://stackoverflow.com/questions/25224321/find-all-the-possible-permutations-using-ruby-and-recursion)
+- [Dictionary attack](https://en.wikipedia.org/wiki/Dictionary_attack)
