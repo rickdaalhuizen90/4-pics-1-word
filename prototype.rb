@@ -10,7 +10,7 @@ $word_length = 4
 $letters = ["e", "k", "i", "l", "w", "c", "o", "r", "h", "z", "m", "g"]
 
 # Wordlist that match the criteria of an image
-$wordlist = File.open("./wordlist.txt") || []
+$wordlist = File.open("./glossary.txt") || []
 $temp_perms = []
 $filtered = []
 $dictionary = []
@@ -18,6 +18,7 @@ $dictionary = []
 # Eliminate words that are not length of $word_length
 def sort_words()
   $wordlist.each { |word|
+    word = word.strip
     $filtered.push(word) if word.length === $word_length
   }
 end
